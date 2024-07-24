@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    nav {
+        @apply m-0 p-0 content-center bg-[#5976d5] w-full text-center font-dosis;
+    }
+
+    h1 {
+        @apply text-[3rem];
+    }
+
+    footer {
+        @apply w-full bg-black bottom-0;
+    }
+}
+
+@layer components{
+    #navbar{
+        @apply opacity-0 transition-opacity duration-[2s];
+    }
+
+    #navbar a{
+        @apply m-0 pt-[2rem] pb-[1rem] px-[2rem] no-underline font-black text-[1.5rem] duration-[0.3s] w-full;
+    }
+
+    #navbar a:hover{
+        @apply px-[3rem] border-b-[10px] border-solid duration-[0.3s] border-white;
+    }
+
+    .menu-container{
+        @apply p-[1.7rem];
+    }
+
+    .selected-menu{
+        @apply border-b-[10px] border-solid border-white transition-[0.3s] w-full;
+    }
+
+    .content{
+        @apply my-[4rem] font-dosis;
+    }
+
+    .main-content{
+        @apply mx-[20rem];
+    }
+}
