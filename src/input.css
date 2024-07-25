@@ -17,6 +17,10 @@
 }
 
 @layer components{
+    .dark-mode{
+        @apply bg-black text-white;
+    }
+
     #navbar{
         @apply opacity-0 transition-opacity duration-[2s];
     }
