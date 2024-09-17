@@ -7,25 +7,24 @@
     <link rel="icon" type="image/x-icon" href="https://s.namemc.com/2d/skin/face.png?id=f870884d82d51ca2&scale=4">
     <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-    <nav id="navbar">
-        <div class="menu-container">
-            <a class='selected-menu' href="main.html">HOME</a>
-            <a href="about.html">ABOUT</a>
-            <button id="darkmode" class="float-right opacity-0" onclick="darkMode()">
-                <img id="modeButton" class="w-[30px] h-[30px]" src="/assets/night-mode.png"/>
-            </button>
-        </div>
-    </nav>
+<body class="bg-[url('/assets/minecraft.webp')] bg-cover">
+    <div id="navbar-container" class="top-0 fixed w-full z-40 border-b-0">
+        <nav id="navbar">
+            <div class="menu-container">
+                <a class='w-full' href="main.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+            </div>
+        </nav>
+    </div>
     <div class="content">
         <div class="main-content">
             <div class="text-center w-full h-auto overflow-hidden">
-                <div class="opacity-0 flex mb-[15px] transition-opacity duration-[1s]" id="header_newest_video">
+                <div class="flex mb-[15px] transition-opacity duration-[1s] opacity-0" id="header_newest_video">
                     <h1>Check out my latest video</h1>
                     <img class="ml-[10px] mt-auto w-[50px] h-[50px]" src="https://media.lordicon.com/icons/wired/lineal/2755-arrow-big-down.gif">
                     <img class="ml-[10px] mt-auto w-[50px] h-[50px]" src="https://media.lordicon.com/icons/wired/lineal/2755-arrow-big-down.gif">
                 </div>
-                <iframe class="aspect-video transition-opacity duration-[1s] opacity-0 w-full h-auto hover:scale-[1.01] hover:transition-transform hover:duration-[0.3s]" id="iframes" allowfullscreen src="https://www.youtube.com/embed/gvFHtAwl2jk" scrolling="no">
+                <iframe class="opacity-0 aspect-video transition-opacity duration-[1s] w-full h-auto hover:scale-[1.01] hover:transition-transform hover:duration-[0.3s]" id="iframes" allowfullscreen src="https://www.youtube.com/embed/gvFHtAwl2jk" scrolling="no">
                 </iframe>
             </div>
             <div class="mt-[10rem]">
@@ -36,7 +35,7 @@
     </div>
     <footer class="text-white bg-black">
         <div class="flex justify-between mx-[2rem]">
-            <p>Copyright 2024 - Bobo Mad</p>
+            <p>Copyright 2024 - Valeska Lim</p>
             <div class="flex items-center content-center">
                 <p>Made with luv</p>
                 <img class="m-auto ml-[5px] w-[1.5rem] h-[1.5rem]" src="https://cdn-icons-png.flaticon.com/512/9484/9484251.png">
