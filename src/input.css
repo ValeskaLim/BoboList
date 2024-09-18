@@ -30,7 +30,7 @@
     }
 
     .menu-container{
-        @apply p-[1.7rem];
+        @apply p-[1.7rem] text-white;
     }
 
     .content{

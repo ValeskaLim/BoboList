@@ -20,9 +20,9 @@ window.onscroll = function() {
 
 function checkScrollY() {
     if(window.scrollY > 50) {
-        navbar.classList.add("backdrop-blur-sm", "transition-opacity", "duration-[0.3s]", "border-b-[1px]", "border-solid", "text-white");
+        navbar.classList.add("backdrop-blur-sm", "transition-opacity", "duration-[0.3s]", "border-b-[1px]", "border-solid");
     } else {
-        navbar.classList.remove("backdrop-blur-sm", "transition-opacity", "duration-[0.3s]", "border-b-[1px]", "border-solid", "text-white");
+        navbar.classList.remove("backdrop-blur-sm", "transition-opacity", "duration-[0.3s]", "border-b-[1px]", "border-solid");
 
     }
 }
