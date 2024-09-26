@@ -618,30 +618,6 @@ footer {
   top: 0px;
 }
 
-.left-\[20rem\] {
-  left: 20rem;
-}
-
-.left-1\/2 {
-  left: 50%;
-}
-
-.left-\[4rem\] {
-  left: 4rem;
-}
-
-.left-\[5rem\] {
-  left: 5rem;
-}
-
-.left-\[3rem\] {
-  left: 3rem;
-}
-
-.left-\[6rem\] {
-  left: 6rem;
-}
-
 .z-40 {
   z-index: 40;
 }
@@ -682,22 +658,6 @@ footer {
 
 .mt-\[2rem\] {
   margin-top: 2rem;
-}
-
-.mt-\[6rem\] {
-  margin-top: 6rem;
-}
-
-.ml-\[10rem\] {
-  margin-left: 10rem;
-}
-
-.mt-\[7rem\] {
-  margin-top: 7rem;
-}
-
-.mt-\[8rem\] {
-  margin-top: 8rem;
 }
 
 .mt-\[4rem\] {
@@ -760,10 +720,6 @@ footer {
   width: 100%;
 }
 
-.flex-col {
-  flex-direction: column;
-}
-
 .content-center {
   align-content: center;
 }
@@ -797,8 +753,8 @@ footer {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/assets\/minecraft\.webp\'\)\] {
-  background-image: url('/assets/minecraft.webp');
+.bg-\[url\(\'\/public\/minecraft\.webp\'\)\] {
+  background-image: url('/public/minecraft.webp');
 }
 
 .bg-cover {
@@ -859,42 +815,6 @@ footer {
   transition-duration: 1s;
 }
 
-.after\:absolute::after {
-  content: var(--tw-content);
-  position: absolute;
-}
-
-.after\:bottom-0::after {
-  content: var(--tw-content);
-  bottom: 0px;
-}
-
-.after\:left-0::after {
-  content: var(--tw-content);
-  left: 0px;
-}
-
-.after\:h-\[4px\]::after {
-  content: var(--tw-content);
-  height: 4px;
-}
-
-.after\:w-0::after {
-  content: var(--tw-content);
-  width: 0px;
-}
-
-.after\:bg-white::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.after\:duration-\[0\.5s\]::after {
-  content: var(--tw-content);
-  transition-duration: 0.5s;
-}
-
 .hover\:scale-\[1\.01\]:hover {
   --tw-scale-x: 1.01;
   --tw-scale-y: 1.01;
@@ -927,20 +847,12 @@ footer {
     position: fixed;
   }
 
-  .sm\:relative {
-    position: relative;
-  }
-
-  .sm\:left-1\/2 {
-    left: 50%;
+  .sm\:left-0 {
+    left: 0px;
   }
 
   .sm\:left-\[9rem\] {
     left: 9rem;
-  }
-
-  .sm\:left-0 {
-    left: 0px;
   }
 
   .sm\:block {
@@ -977,15 +889,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .md\:left-0 {
-    left: 0px;
-  }
-
-  .md\:mx-\[5rem\] {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
   .md\:mx-\[6rem\] {
     margin-left: 6rem;
     margin-right: 6rem;
