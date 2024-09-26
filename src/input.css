@@ -8,7 +8,7 @@
     }
 
     h2 {
-        @apply text-[3rem];
+        @apply text-[2.5rem];
     }
 
     footer {
@@ -26,7 +26,7 @@
     }
 
     #navbar a{
-        @apply m-0 pt-[2rem] pb-[1rem] px-[2rem] no-underline font-black text-[1.5rem] duration-[0.3s] w-full;
+        @apply m-0 pt-[2rem] pb-[1rem] px-[2rem] no-underline font-black duration-[0.3s] w-full;
     }
 
     .menu-container{
@@ -34,10 +34,6 @@
     }
 
     .content{
-        @apply my-[5rem] font-dosis;
-    }
-
-    .main-content{
-        @apply mx-[20rem];
+        @apply my-[6rem] font-dosis;
     }
 }
